@@ -1,0 +1,297 @@
+{
+     "intents": [
+          {
+               "tag": "greeting",
+               "patterns": [
+                    "hi",
+                    "is anyone there?",
+                    "Hello",
+                    "Good day",
+                    "Whats up",
+                    "sup"
+               ],
+               "responses": [
+                    "Hello , thanks for visiting Construct_Bot",
+                    "Good to see you again! ",
+                    "Hi , how can I help?",
+                    "Nameste",
+                    "Hello! My Name is Construct_Bot, How can i help you?"
+               ],
+               "set": ""
+          },
+          {
+               "tag": "botstatus",
+               "patterns": [
+                    "How are you doing?",
+                    "Whats up",
+                    "are you fine"
+               ],
+               "responses": [
+                    "I am fine.Thanks for asking.",
+                    "I am doing good."
+               ],
+               "set": ""
+          },
+          {
+               "tag": "creator",
+               "patterns": [
+                    "who are you ?",
+                    "who is this ?",
+                    "who am i talking to?",
+                    "what is your name?",
+                    "are you human?"
+               ],
+               "responses": [
+                    "Hi my name is Construct_Bot. I am created for project purpose.\nNice to meet you."
+               ],
+               "set": ""
+          },
+          {
+               "tag": "sad",
+               "patterns": [
+                    "i have a problem",
+                    "problem",
+                    "issue"
+               ],
+               "responses": [
+                    "I am here for you, how can I help?"
+               ],
+               "set": ""
+          },
+          {
+               "tag": "funny",
+               "patterns": [
+                    "you have good sense of humour",
+                    "you are funny bot"
+               ],
+               "responses": [
+                    "Yes i have good sense of humour.",
+                    "Thanks for your compliment"
+               ],
+               "set": ""
+          },
+          {
+               "tag": "positive",
+               "patterns": [
+                    "ok",
+                    "good cool",
+                    "yes wow you are so intelligent ",
+                    "hurray i am happy",
+                    "i am doing good"
+               ],
+               "responses": [
+                    "I Hope you are getting your answers cleared."
+               ],
+               "set": ""
+          },
+          {
+               "tag": "goodbye",
+               "patterns": [
+                    "Bye",
+                    "See you later",
+                    "Goodbye"
+               ],
+               "responses": [
+                    "See you later, thanks for visiting Construct_Bot",
+                    "Have a nice day",
+                    "Bye! Come back again soon."
+               ]
+          },
+          {
+               "tag": "thanks",
+               "patterns": [
+                    "thanks",
+                    "Thank you",
+                    "That's helpful"
+               ],
+               "responses": [
+                    "Happy to help!",
+                    "Any time!",
+                    "My pleasure"
+               ]
+          },
+          {
+               "tag": "list",
+               "patterns": [
+                    "What can you do?",
+                    "list",
+                    "functions",
+                    "Items",
+                    "menu"
+               ],
+               "responses": [
+                    "----------**MENU**----------\n1. Distributor Related Information\n2. Materials Related Information \n3. Site Brochure \n4. Site Map \n5. Work Progress \n6. Site Images \n\nYOU CAN DIRECTLY TYPE THE ITEM YOU WANT TO ACCESS OR JUST TYPE THE CORRESPONDING NUMBER"
+               ]
+          },
+          {
+               "tag": "1-distributor",
+               "patterns": [
+                    "1",
+                    "Distributor Related Information",
+                    "distributor"
+               ],
+               "responses": [
+                    "----------------------------- \n Type 'C' for Current Distributor's Information \n Type 'O' for Other Distributors Information "
+               ]
+          },
+          {
+               "tag": "2-distributor-sub-group",
+               "patterns": [
+                    "C",
+                    "c",
+                    "Current"
+               ],
+               "responses": [
+                    "The Current Distributor's Details are\n Name: Anand Building Material Supplier\n Contact Number:  079 2277 0226\n Address: A-35, Pavitrakunj Society, C T M Road, Amraiwadi, Amraiwadi, Ahmedabad, Gujarat 380026\n"
+               ]
+          },
+          {
+               "tag": "distributor-sub-group2",
+               "patterns": [
+                    "O",
+                    "o",
+                    "0",
+                    "Other"
+               ],
+               "responses": [
+                    "List of Some Other Distributors Availabe \n Name: Mittal Trading Co.  \n Conctact:  098240 86936  \n  Address: 2 Harikrupa shoping centre Nr is about varta road, Ekta Park Society, Ahmedabad, Gujarat 382443 \n\n\n Name: Gayatri Building Material Suppliers \n Conctact:  079 6523 2425  \n  Address: Rakhial, Opposite Ramini Chawl, Rakhial,, near Old Sagar Hotel, Ahmedabad, Gujarat 380021  \n\n\n Name: Bansal Building Materials (P) ltd.  \n Conctact: Not Available  \n  Address: CITY CENTRE, 302, Magdalla, Sosyo Cir, Udhna, Surat, Gujarat 395002  \n\n\n Name: Magicrete Building Solutions Private Limited  \n Conctact: 080704 08010  \n  Address: 1st Floor, Ritz Square, Near Narmad Library, Ghod Dod Rd, near Indoor Stadium, Surat, Gujarat 395007  \n\n\n Name: Mukesh Enterprise  \n Conctact:  098241 23530  \n  Address: Gandhinagar \n\n\n Name: Mahavideh Associates  \n Conctact:  098246 42633  \n  Address: Shop No. 602, Abhishek Complex, 6th Floor, Sector 11, Gandhinagar, Gujarat 382011 \n\n\n Name: Umesh Building Products \n Conctact:  02836 233 377  \n  Address: Ward 12/C, 600, Police Station Rd, Railway Colony, Sector 1A, Gandhidham, Gujarat 370201  \n\n\n Name: Kutch Building Products  \n Conctact:  098242 94254  \n  Address: Shop No, RADHIKA LIGHT DECORATION, 12 C, Police Station Rd, Railway Colony, Sector 1A, Gandhidham, Gujarat 370201  \n\n\n Name: Karm Buliding Materials  \n Conctact: 083208 38637  \n  Address: 7, Radhnpur Road, Puspanjale Society, Kunal, Mehsana, Gujarat 384002  \n\n\n Name: Gayatri Building materials  \n Conctact: 099044 27280  \n  Address: GJ SH 41, Palanpur, Gujarat 385001  \n"
+               ]
+          },
+          {
+               "tag": "2-materials",
+               "patterns": [
+                    "Materials Related Information",
+                    "2",
+                    "Materials"
+               ],
+               "responses": [
+                    "----------------------------- \n Type A for Availabe Materials List \n Type R for Recquired Materials List \n Type P for Materials Price List\n"
+               ]
+          },
+          {
+               "tag": "2-materials-sun-group-availabe",
+               "patterns": [
+                    "A",
+                    "a",
+                    "availabe"
+               ],
+               "responses": [
+                    "The detailed list of availabe materials is available on the following link: \n https://docs.google.com/spreadsheets/d/1cuFzxQRpp1iu2t74wZyuDntEYB2iwNnBNMj9EBor2uY/edit#gid=0 "
+               ]
+          },
+          {
+               "tag": "2-materials-sun-group-recquired",
+               "patterns": [
+                    "R",
+                    "r",
+                    "recquired"
+               ],
+               "responses": [
+                    "The detailed list of materials recquired is available on the following link: \n https://docs.google.com/spreadsheets/d/1IaGyFSca7vfc3CH-T9DcIz8hjWXUwXJfNs1zX29lM5A/edit#gid=0"
+               ]
+          },
+          {
+               "tag": "2-materials-sun-group-price",
+               "patterns": [
+                    "P",
+                    "p",
+                    "price"
+               ],
+               "responses": [
+                    "The detailed list of material prices is available on the following link: \n https://docs.google.com/spreadsheets/d/13KhzNdW5-vDG-JZ9EiWXVNhB9Dn9ejlaekFZ3m0jbho/edit#gid=0"
+               ]
+          },
+          {
+               "tag": "3-site-brochure",
+               "patterns": [
+                    "3",
+                    "site Brochure",
+                    "site design"
+               ],
+               "responses": [
+                    "The Site Brochure is availabe on the following link: \n https://drive.google.com/drive/u/4/folders/1lt8GduaA6Ifc7rBH1pE_9QoVDL1eMjlN"
+               ]
+          },
+          {
+               "tag": "4-Site-Map",
+               "patterns": [
+                    "Site Map",
+                    "4",
+                    "map"
+               ],
+               "responses": [
+                    "-----**Which Part of site's map you want?**----- \n Type B for Buildings Map \n Type L for Floor/ Levels Map \n Type S for Offices Map \n Type F for Complete/ Full Map "
+               ]
+          },
+          {
+               "tag": "b-building",
+               "patterns": [
+                    "b",
+                    "B",
+                    "building",
+                    "buildings"
+               ],
+               "responses": [
+                    "The Map Of Building can be accessed from the following link: \n https://drive.google.com/drive/u/4/folders/1bDWRqImgsRSzduQxlK-DhG8RmZy9hjyB"
+               ]
+          },
+          {
+               "tag": "l-floor",
+               "patterns": [
+                    "level",
+                    "floor",
+                    "L",
+                    "l"
+               ],
+               "responses": [
+                    "The Map Of Floor can be accessed from the following link: \n https://drive.google.com/drive/u/4/folders/1tfSJv-xnsrBhp93A3QxQZ9uVs3JQGlx6"
+               ]
+          },
+          {
+               "tag": "s-shops",
+               "patterns": [
+                    "shops",
+                    "office",
+                    "S",
+                    "s"
+               ],
+               "responses": [
+                    "The Map Of Shops can be accessed from the following link: \n https://drive.google.com/drive/u/4/folders/1l8J6kj5hCW7u8SiyF8tE8RWlE16GBiGy"
+               ]
+          },
+          {
+               "tag": "f-complete",
+               "patterns": [
+                    "f",
+                    "F",
+                    "full",
+                    "complete"
+               ],
+               "responses": [
+                    "The Complete Map can be accessed from the following link: \n https://drive.google.com/drive/u/4/folders/1yB2kMs-whMO8T2wnvR3R6EoUd9vRPbKI"
+               ]
+          },
+          {
+               "tag": "5-work-progress",
+               "patterns": [
+                    "5",
+                    "work progress",
+                    "progress"
+               ],
+               "responses": [
+                    "The site progress reports can be accessed from the following link: \n https://drive.google.com/drive/u/4/folders/1QpH__-4GlEsSFPYjhBdzwPloOtDtI71G"
+               ]
+          },
+          {
+               "tag": "6-Site-Images",
+               "patterns": [
+                    "6",
+                    "site images",
+                    "images"
+               ],
+               "responses": [
+                    "The site images can be accessed from the following link : \n https://drive.google.com/drive/u/4/folders/1dOdD6SD2-MjkFAIQkvk1V8BEo9GioQ8e"
+               ]
+          }
+     ]
+}
